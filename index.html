@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuidemos el Medio Ambiente</title>
+  <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/256/9132/9132809.png?semt=ais_hybrid"
+    type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <nav class="menu__wrapper">
+        <div class="menu__bar">
+          <a href="#" title="Logo">
+            <img class="logo" src="https://cdn-icons-png.freepik.com/256/9132/9132809.png?semt=ais_hybrid" title='Logo'
+              alt='Logo'>
+          </a>
+          <img class="menu-icon" src="assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu'
+            onclick="toggleMenu(this)">
+          <ul class="navigation">
+            <li><a id="btn_acercaDe">Acerca de</a></li>
+          </ul>
+        </div>
+      </nav>
+      </ul>
+    </nav>
+  </header>
+  <!-- CONTENEDOR -->
+  <section class="section">
+    <article class="article">
+      <div class="article__container-c">
+        <h2 class="container__podcast-titulo"><span>🎙️</span>VOCES AMBIENTALES - PRESENTACIÓN</h2>
+        <div class="container-resumen container-presentacion">
+          <p class="container-resumen__parrafo ">Los estudiantes de tercer año de la tecnicatura en gestión ambiental
+            del
+            <strong>Instituto Superior "Barranqueras Primero"</strong> crearon un programa desde el espacio curricular
+            de <strong>Educación
+              Ambiental</strong> para concientizar sobre la importancia de la participación ciudadana en la preservación
+            del
+            planeta. A pesar de que a veces parece que el cuidado de la Tierra está fuera de nuestro alcance, el
+            programa busca mostrar que mediante acciones tanto pequeñas como grandes, todos podemos contribuir al
+            cambio. Se insta a reflexionar sobre cómo asumir un papel activo y llevar a cabo acciones concretas para
+            unirse al movimiento de preservación del medio ambiente desde hoy mismo.
+          </p>
+          <div class="container__podcast-fotos">
+            <img class="podcast__img" src="./assets/img/Episodio 2. Dengue.jpg" alt="Foto de los estudiantes">
+            <img class="podcast__img" src="./assets/img/Episodio 3. Contaminación lumínica y sonora.jpeg"
+              alt="Foto de los estudiantes">
+          </div>
+          <h3 class="container-resumen__titulo-documentacion">Visualizar Documentación</h3>
+        </div>
+      </div>
+      <div class="container-descargas">
+        <a href="./assets/archivos/Presentación-del-programa-Voces-Ambientales.pdf"
+          class="button-download">Descargar</a>
+      </div>
+
+      <hr class="contenedor-separador">
+
+      <div class="article__container-a">
+        <h2 class="container__podcast-titulo"><span>🎙️</span>PODCAST - PRIMER CAPITULO</h2>
+        <div class="container__podcast-audio">
+          <audio controls class="reproductor" id="audio1" autoplay> <!--COLOCAR EL ATRIBUTO AUTOPLAY-->
+            <!--   src="https://www.googleapis.com/drive/v3/files/1pj4tj0e6dF5nKz0DFuHoQoD5Kbm5Px63?alt=media&key=AIzaSyBgJ8o_p0F5MrCVOk7Rm44CyBbQp8AnKTY"  -->
+            <source src="https://www.googleapis.com/drive/v3/files/1pj4tj0e6dF5nKz0DFuHoQoD5Kbm5Px63?alt=media&key=AIzaSyBgJ8o_p0F5MrCVOk7Rm44CyBbQp8AnKTY" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="container-resumen">
+          <h3 class="container-resumen__titulo">Moda Circular - ¡Resumiendo!</h3>
+          <p class="container-resumen__parrafo">La moda circular se basa en un enfoque de sostenibilidad y tiene como
+            objetivo reducir el desperdicio y maximizar la vida útil de las prendas de vestir. En lugar de seguir un
+            modelo de producción lineal (donde se extraen los recursos, se fabrican los productos, se utilizan y luego
+            se
+            desechan), la moda circular promueve un ciclo continuo de uso, reutilización, reparación y reciclaje de
+            prendas.</p>
+          <h3 class="container-resumen__titulo">💡Tips para Moda Circular</h3>
+          <ul class="container-resumen__lista">
+            <li class="container-resumen__items"><span class="items__emoji">🔄</span> Reutiliza la ropa que tienes. La
+              ropa más sostenible en este momento es la que usas, así que presume de lo que tienes en esta temporada.
+            </li>
+            <li class="container-resumen__items"><span class="items__emoji">👚</span> Opta por el alquiler para
+              diferentes tipos de eventos, como casamientos, recepciones, etc. Ejemplos: trajes, vestidos.</li>
+            <li class="container-resumen__items"><span class="items__emoji">👕</span> Compra de segunda mano siempre que
+              esté en buenas condiciones. Es una elección inteligente y consciente.</li>
+            <li class="container-resumen__items"><span class="items__emoji">♻️</span> Compra menos, pero de mejor
+              calidad: elige prendas diseñadas para durar, ser reparables y reciclables, con tejidos ecológicos.</li>
+          </ul>
+          <h3 class="container-resumen__titulo-documentacion">Visualizar Documentación</h3>
+        </div>
+        <div class="container-descargas">
+          <div class="container-descargas">
+            <a href="./assets/archivos/Episodio 1. Moda circular.pdf" class="button-download">Descargar</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="contenedor-separador">
+
+      <div class="article__container-b">
+        <h2 class="container__podcast-titulo"><span>🎙️</span>PODCAST - SEGUNDO CAPITULO</h2>
+        <div class="container__podcast-audio">
+          <audio controls class="reproductor" id="audio2">
+            <source src="https://www.googleapis.com/drive/v3/files/17WXSzq-Pf5_Ow078jwKEC9M2tCEw-0kx?alt=media&key=AIzaSyBgJ8o_p0F5MrCVOk7Rm44CyBbQp8AnKTY" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="container-resumen">
+          <h3 class="container-resumen__titulo">Dengue - ¡Resumiendo!</h3>
+          <p class="container-resumen__parrafo">El dengue es una enfermedad transmitida por mosquitos que afecta a
+            millones de personas en todo el mundo. Es causada por el virus del dengue y se caracteriza por síntomas como
+            fiebre alta, dolor de cabeza y dolores musculares. En casos graves, puede provocar complicaciones y poner en
+            peligro la vida.</p>
+          <h3 class="container-resumen__titulo">💡 Tips para prevenir el dengue</h3>
+          <ul class="container-resumen__lista">
+            <li class="container-resumen__items"><span class="items__emoji">🌊</span> Elimina los criaderos de mosquitos
+              en tu entorno, como recipientes con agua estancada.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🦟</span> Utiliza repelente de mosquitos,
+              especialmente durante las horas del día en las que los mosquitos son más activos.</li>
+            <li class="container-resumen__items"><span class="items__emoji">👕</span> Usa ropa protectora, como mangas
+              largas y pantalones, para reducir la exposición a las picaduras de mosquitos.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🚫</span> Instala mosquiteros en puertas y
+              ventanas para evitar que los mosquitos entren en tu hogar.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🗑️</span> Colabora en la limpieza y
+              mantenimiento de espacios públicos, evitando acumulación de basura y agua estancada.</li>
+            <li class="container-resumen__items"><span class="items__emoji">📞</span> Informa a las autoridades locales
+              si identificas posibles focos de proliferación de mosquitos.</li>
+          </ul>
+          <h3 class="container-resumen__titulo-documentacion">Visualizar Documentación</h3>
+        </div>
+      </div>
+      <div class="container-descargas">
+        <div class="container-descargas">
+          <a href="./assets/archivos/Episodio 2 - DENGUE.pdf" class="button-download">Descargar</a>
+        </div>
+      </div>
+
+      <hr class="contenedor-separador">
+
+      <div class="article__container-c">
+        <h2 class="container__podcast-titulo"><span>🎙️</span>PODCAST - TERCER CAPITULO</h2>
+        <div class="container__podcast-audio">
+          <audio controls class="reproductor" id="audio3">
+            <source src="https://www.googleapis.com/drive/v3/files/1iiqJCtc5vdLXdHQCF8khzXEnWP2hdKev?alt=media&key=AIzaSyBgJ8o_p0F5MrCVOk7Rm44CyBbQp8AnKTY" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="container-resumen">
+          <h3 class="container-resumen__titulo">Contaminación lumínica y sonora - ¡Resumiendo!</h3>
+          <p class="container-resumen__parrafo">La contaminación lumínica y sonora son problemas ambientales que afectan
+            a nuestro entorno y bienestar. La contaminación lumínica se refiere al exceso de luz artificial que
+            interfiere con la oscuridad natural del ambiente, afectando la fauna, la calidad del sueño y la visibilidad
+            del cielo estrellado. Por otro lado, la contaminación sonora se produce por el ruido excesivo y no deseado,
+            proveniente de fuentes como el tráfico, la industria y actividades humanas, causando estrés, problemas de
+            salud y alteraciones en la fauna.</p>
+          <h3 class="container-resumen__titulo">💡 Tips para reducir la contaminación lumínica y sonora</h3>
+          <ul class="container-resumen__lista">
+            <li class="container-resumen__items"><span class="items__emoji">💡</span> Apaga las luces innecesarias
+              durante la noche y utiliza iluminación eficiente.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🌳</span> Planta árboles y arbustos para
+              reducir el ruido y absorber el exceso de luz.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🔇</span> Evita actividades ruidosas en
+              áreas residenciales y respeta los límites de ruido establecidos.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🌃</span> Utiliza cortinas o persianas
+              opacas para bloquear la luz exterior en tu hogar durante la noche.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🚗</span> Utiliza transporte público, camina
+              o utiliza la bicicleta para reducir el ruido y la contaminación del tráfico.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🔊</span> Utiliza auriculares o tapones para
+              los oídos en entornos ruidosos.</li>
+          </ul>
+        </div>
+        <h3 class="container-resumen__titulo-documentacion">Visualizar Documentación</h3>
+      </div>
+      </div>
+      <div class="container-descargas">
+        <a href="./assets/archivos/Episodio 3. Contaminación lumínica y sonora.pdf"
+          class="button-download">Descargar</a>
+      </div>
+
+      <hr class="contenedor-separador">
+
+      <div class="article__container-c">
+        <h2 class="container__podcast-titulo"><span>🎙️</span>PODCAST - CUARTO CAPITULO</h2>
+        <div class="container__podcast-audio">
+          <audio controls class="reproductor" id="audio4">
+            <source src="https://www.googleapis.com/drive/v3/files/1Ons_h3gFSWZ-T1UTroZsFjI_a4PtTnv6?alt=media&key=AIzaSyBgJ8o_p0F5MrCVOk7Rm44CyBbQp8AnKTY" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="container-resumen">
+          <h3 class="container-resumen__titulo">Arbolado Urbano - ¡Resumiendo!</h3>
+          <p class="container-resumen__parrafo">El arbolado urbano desempeña un papel crucial en la mitigación de la contaminación lumínica y sonora en nuestras ciudades. La contaminación lumínica se refiere al exceso de luz artificial que interfiere con la oscuridad natural del ambiente, afectando la fauna, la calidad del sueño y la visibilidad del cielo estrellado. Mientras tanto, la contaminación sonora se produce por el ruido excesivo y no deseado, proveniente de fuentes como el tráfico, la industria y actividades humanas, causando estrés, problemas de salud y alteraciones en la fauna.</p>
+          <h3 class="container-resumen__titulo">💡 Tips para cuidar el arbolado urbano</h3>
+          <ul class="container-resumen__lista">
+            <li class="container-resumen__items"><span class="items__emoji">🌳</span> Planta árboles nativos que sean adecuados para tu región y clima.</li>
+            <li class="container-resumen__items"><span class="items__emoji">💧</span> Proporciona riego adecuado a los árboles, especialmente durante períodos de sequía.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🌱</span> Aporta nutrientes con fertilizantes orgánicos para promover el crecimiento y la salud de los árboles.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🍃</span> Realiza podas regulares para mantener la forma y la salud de los árboles, eliminando ramas muertas o enfermas.</li>
+            <li class="container-resumen__items"><span class="items__emoji">🌳</span> Protege los árboles de daños físicos, como golpes de vehículos o construcciones.</li>
+            <li class="container-resumen__items"><span class="items__emoji">♻️</span> Fomenta la conciencia ambiental en tu comunidad para valorar y proteger el arbolado urbano.</li>
+          </ul>
+        </div>
+        
+        <h3 class="container-resumen__titulo-documentacion">Visualizar Documentación</h3>
+      </div>
+      </div>
+      <div class="container-descargas">
+        <a href="./assets/archivos/Episodio 4. Arbolado urbano.pdf"
+          class="button-download">Descargar</a>
+      </div>
+
+      <hr class="contenedor-separador">
+
+      <div class="article__container-d">
+        <h2 class="container__podcast-titulo"><span>🎙️</span>PODCAST - QUINTO CAPITULO</h2>
+        <div class="container__podcast-audio">
+          <audio controls class="reproductor" id="audio5">
+
+            <source src="https://www.googleapis.com/drive/v3/files/162Z2d1QcwCqVSsOwILVLeqRvF8X6gmv7?alt=media&key=AIzaSyBgJ8o_p0F5MrCVOk7Rm44CyBbQp8AnKTY" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="container-resumen">
+          <div class="container-resumen">
+            <h3 class="container-resumen__titulo">Deforestación y actualización de ley - ¡Resumiendo!</h3>
+            <p class="container-resumen__parrafo">La deforestación es un problema ambiental grave que resulta en la
+              pérdida de bosques y ecosistemas vitales para la salud del planeta. Para abordar este desafío, es crucial
+              contar con leyes y regulaciones actualizadas que promuevan la conservación de los bosques y fomenten
+              prácticas sostenibles. La actualización de la ley puede fortalecer las medidas de protección, implementar
+              estrategias de reforestación y establecer sanciones para aquellos que contribuyan a la deforestación.</p>
+            <h3 class="container-resumen__titulo">💡 Tips para combatir la deforestación y promover la actualización de
+              ley</h3>
+            <ul class="container-resumen__lista">
+              <li class="container-resumen__items"><span class="items__emoji">🌳</span> Apoya organizaciones y proyectos
+                que se dediquen a la conservación de los bosques y la reforestación.</li>
+              <li class="container-resumen__items"><span class="items__emoji">📚</span> Infórmate sobre la legislación
+                existente y promueve la conciencia pública sobre la importancia de una ley actualizada para proteger los
+                bosques.</li>
+              <li class="container-resumen__items"><span class="items__emoji">🌱</span> Contribuye a la reforestación
+                plantando árboles en tu comunidad o participando en programas de reforestación locales.</li>
+              <li class="container-resumen__items"><span class="items__emoji">🗣️</span> Participa en debates y
+                actividades relacionadas con la actualización de la ley de protección forestal, expresando tu apoyo y
+                preocupación por el tema.</li>
+              <li class="container-resumen__items"><span class="items__emoji">🌍</span> Promueve prácticas sostenibles
+                en tu vida diaria, como reducir el consumo de productos derivados de la deforestación y optar por
+                alternativas más ecológicas.</li>
+            </ul>
+          </div>
+          <h3 class="container-resumen__titulo-documentacion">Visualizar Documentación</h3>
+        </div>
+      </div>
+      <div class="container-descargas">
+        <a href="./assets/archivos/Episodio 5-Deforestación y actualización de ley_.pdf"
+          class="button-download">Descargar</a>
+      </div>
+
+      <hr class="contenedor-separador">
+
+      <div class="article__container-d">
+        <h2 class="container__juego-titulo"><span>🎨</span> CREA IMAGENES CON LA IMAGINACIÓN</h2>
+        <p class="container-resumen__parrafo">Una IA que responde tus preguntas y te ayuda a aclarar tus dudas sobre temas relacionados con el medio ambiente. Creado por <strong>Z4X</strong>.</p>
+        <div class="container__juego-play">
+          <iframe src="https://poe.com/ForestBot_THC" width="ANCHO" height="500" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <hr class="contenedor-separador">
+
+      <div class="article__container-d">
+        <h2 class="container__juego-titulo"><span>🤖</span> HAZ PREGUNTA A NUESTRA IA SOBRE EL TEMA</h2>
+        <p class="container-resumen__parrafo">Una IA que genera imágenes a través de texto, permitiéndote visualizar
+          escenas relacionadas con el medio ambiente. Nuestro bot te proporcionará algunas de estas imágenes. Creado por
+          <strong>Z4X</strong>.</p>
+        <div class="container__juego-play">
+          <iframe src="https://poe.com/ConteneitorBot" width="ANCHO" height="500" frameborder="0"></iframe>
+        </div>
+      </div>
+      
+      <hr class="contenedor-separador">
+
+      <div class="article__container-d">
+        <h2 class="container__juego-titulo"><span>🎮</span> JUEGA A NUESTRO JUEGO - CUIDEMOS NUESTRO AMBIENTE 👾</h2>
+        <p class="container-resumen__parrafo">Un pequeño juego para divertirte. Simplemente debes ayudar a Dylan a
+          acomodar los residuos que quedaron después de una fiesta en el parque de su barrio. Hecho por
+          <strong>Z4X</strong>
+        </p>
+
+        <div class="container__juego-play">
+          <iframe src="https://scratch.mit.edu/projects/1030288534/embed" allowtransparency="true" width="100"
+            height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
+
+        </div>
+      </div>
+
+    </article>
+  </section>
+
+
+
+  <!-- Modal Acerca de -->
+  <div id="acercaDe" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>🥭 - Acerca de</h2>
+      </div>
+      <div class="modal-body">
+        <p>Aplicación diseñada por <a class="mango-Store" href="https://www.instagram.com/mango.storeok/">Mango
+            Store</a> 🥭🥭🥭🥭🥭🥭🥭🥭🥭🥭🥭🥭</p>
+      </div>
+    </div>
+  </div>
+  <div id="modalOverlay" class="modal-overlay"></div>
+
+
+  <footer class="footer">
+    <h4 class="footer__texto">2024 &copy; By - <a href="https://www.instagram.com/mango.storeok/" target="_blank"
+        class="footer__texto-MS">🥭 Mango Store</a></h4>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
